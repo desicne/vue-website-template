@@ -1,0 +1,16 @@
+
+// Setup Material Design Lite colors
+
+$color-black: "0,0,0";
+$color-white: "255,255,255";
+
+// Primary and accent
+// We overwrite the default MDL colors with our own theming color variables
+$color-primary: "110,172,70" !default;
+$color-primary-dark: "59,121,19" !default;
+$color-accent: "231,76,60" !default;
+$color-primary-contrast: $color-white !default;
+$color-accent-contrast: $color-white !default;
+
+
+

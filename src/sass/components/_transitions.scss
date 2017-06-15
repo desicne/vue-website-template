@@ -1,0 +1,30 @@
+/* Fade Transition */
+.fade-enter-active, .fade-leave-active {
+  transition: all 0.4s ease;
+  overflow: hidden;
+  visibility: visible;
+  opacity: 1;
+}
+.content.fade-enter-active, .content.fade-leave-active {
+  /* Delay for showing the content after the loader has been hidden */
+  transition-delay: 0.4s;
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+/* Expand Transition */
+.expand-enter-active, .expand-leave-active {
+  transition: all .3s ease;
+  height: 30px;
+  padding: 10px;
+  background-color: #eee;
+  overflow: hidden;
+}
+.expand-enter, .expand-leave-active {
+  height: 0;
+  padding: 0 10px;
+  opacity: 0;
+}

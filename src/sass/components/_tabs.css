@@ -1,0 +1,4 @@
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+  background: white !important;
+  height: 3px !important;
+}

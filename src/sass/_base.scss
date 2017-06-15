@@ -1,0 +1,47 @@
+
+body {
+    margin: 0 !important;
+    font-family: 'Roboto','Helvetica','Arial',sans-serif!important; //discover if Important needed
+    font-weight: normal;
+    font-style: normal;
+}
+
+//ADD IMPORT FOR MAIN ELEMENTS
+/*
+
+    div, a, header, footer, sidemenu
+
+*/
+
+a {
+    text-decoration: none;
+    color: rgb(110, 172, 70);
+}
+
+/*
+.uppercase {
+    text-transform: uppercase;
+}
+
+.editable__input {
+    text-transform: inherit;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.text--center {
+    text-align: center;
+}
+
+*/
+
+header .mdl-layout__drawer {
+    background-color: #6EAC46;
+}
+
+header .mdl-layout__header-row .mdl-layout__tab-topbar .mdl-layout__tab.has-sub-tabs.is-active {
+    background: rgba(0, 0, 0, 0.1);
+}
+

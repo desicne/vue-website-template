@@ -1,0 +1,38 @@
+
+/* These responsive max width limits helps make it eaiser to create a beautiful responsive layout, without too big variation in the card sizes */
+
+
+/* For phones: */
+@media (max-width: $grid-tablet-breakpoint - 1) {
+	main {
+		padding: 10px 0 50px;
+
+		> div {
+			width: 350px;
+			max-width: 100%;
+		}
+	}
+}
+
+@media (min-width: $grid-tablet-breakpoint) and (max-width: $grid-desktop-breakpoint - 1) {
+    /* For tablets: */
+    main {
+		padding: 30px 0 80px;
+		
+		> div {
+			max-width: 550px;
+		}
+    }
+}
+
+@media (min-width: $grid-desktop-breakpoint) {
+	/* For desktop: */
+
+    main {
+		padding: 30px 0 80px;
+
+		> div {
+    		max-width: 1200px;
+		}
+    }
+}
